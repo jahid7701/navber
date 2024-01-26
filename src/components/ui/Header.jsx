@@ -15,7 +15,7 @@ const Header = () => {
 
             <div>
 
-                <div className='flex flex-row justify-between items-center p-5 z-50'>
+                <div className='flex flex-row justify-between items-center p-5 h-[80px]'>
                     <Image src={Logo} alt='picture' className='h-3' />
                     <button className=' lg:hidden' onClick={() => setMobileMenu(!MobileMenu)}>
                         {

@@ -17,7 +17,4 @@ links.map((link,index)=>(
 
     }</>);
 }
-
-
-
 export default Navlinks;

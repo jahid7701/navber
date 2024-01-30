@@ -4,7 +4,8 @@
 
 @layer base{
   *{
-    @apply box-border;
+    @apply box-border ;
+    
   }
   body{
     @apply bg-slate-700;

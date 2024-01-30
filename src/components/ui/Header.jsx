@@ -28,7 +28,7 @@ const Header = () => {
                 <Button />
             </div>
             {/* mobilelink */}
-            <ul className={`absolute  bottom-0 text-md w-full h-full gap-6 py-24 duration-500 pl-4 leading-7 bg-rose-800 ${open ? "left-[-100px]" : "left-[-1233px]"}`}>
+            <ul className={`absolute  bottom-0 text-md lg:hidden w-full h-full gap-6 py-24 duration-500 pl-4 leading-7 bg-rose-800 ${open ? "left-0" : "left-[-1233px]"}`}>
                 <li ><Link href={'/'} className='py-4  px-3 '>Home</Link></li>
                 <Navlinks />
                 <div className='py-5'>

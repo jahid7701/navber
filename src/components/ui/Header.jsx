@@ -11,8 +11,9 @@ const Header = () => {
     const [open, setOpen] = useState(false);
 
     return <nav>
-        <div className='flex items-center justify-between'>
-            <div className='p-5  w-full flex justify-between items-center  z-50'>
+       
+        <div className='flex   items-center justify-between  w-full bg-slate-800'>
+            <div className='p-5   w-full flex justify-between items-center  z-50'>
 
                 <Image src={Logo} alt='picture' className='cursor-pointerb lg:mr-[20px] mr-[160px] h-6 ' />
                 <button className='lg:hidden' onClick={() => setOpen(!open)}>{
@@ -41,7 +42,7 @@ const Header = () => {
         </div>
 
 
-
+        
 
 
     </nav>;

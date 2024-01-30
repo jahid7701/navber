@@ -29,7 +29,7 @@ const Navlinks = () => {
 
                                 <div className='absolute  top-10  hidden group-hover:block   ' >
                                 <div className='py-3'>
-                                                        <div className='bg-white w-4 h-4 absolute left-1   top-[11px] mt-1 rotate-45'></div>
+                                                        <div className='bg-white w-4 h-4 absolute left-2   top-[11px] mt-1 rotate-45'></div>
                                                     </div>
 
                                     <div className='grid grid-cols-2  bg-white' >

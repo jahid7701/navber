@@ -15,9 +15,9 @@ const Navlinks = () => {
     return (<>
         {
             links.map((Link, index) => (
-                <div>
+                <div key={index}>
                 <div className='hidden lg:block'>
-                <div key={index} className=' group  '>
+                <div  className=' group  '>
                     <div>
 
                     <h1 className='cursor-pointer '>{Link.name}</h1>
